@@ -1,0 +1,9 @@
+[submodule "libs/RakHook"]
+	path = libs/RakHook
+	url = https://github.com/imring/RakHook
+[submodule "libs/MinHook"]
+	path = libs/MinHook
+	url = https://github.com/TsudaKageyu/minhook
+[submodule "libs/Imgui"]
+	path = libs/Imgui
+	url = https://github.com/ocornut/imgui
