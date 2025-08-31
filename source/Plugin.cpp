@@ -67,7 +67,11 @@ HRESULT __stdcall hkEndScene(IDirect3DDevice9* pDevice)
 		ImGui_ImplWin32_NewFrame();
 		ImGui::NewFrame();
 
-		PGui::MainGui();
+		try {
+			PGui::MainGui();
+		} catch (const std::exception& e) {
+			samp::RefChat()->AddMessage(-1, e.what());
+		}
 
 		ImGui::EndFrame();
 		ImGui::Render();
