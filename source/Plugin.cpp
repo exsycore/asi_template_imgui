@@ -91,7 +91,7 @@ void c_plugin::game_loop()
 	initialized = true;
 	StringCompressor::AddReference();
 
-	samp::RefChat()->AddMessage(-1, "SF-Plugin | Initialize");
+	samp::RefChat()->AddMessage(-1, "ASI-Plugin | Initialize");
 
 	void** vTableDevice = *(void***)(*(DWORD*)DEVICE_PTR);
 	VTableHookManager* vmtHooks = new VTableHookManager(vTableDevice, D3D_VFUNCTIONS);
