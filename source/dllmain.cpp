@@ -7,8 +7,7 @@ std::unique_ptr<c_plugin> plugin;
 
 BOOL APIENTRY DllMain(HMODULE hModule, DWORD dwReason, LPVOID lpReserved)
 {
-	switch (dwReason)
-	{
+	switch (dwReason) {
 		case DLL_PROCESS_ATTACH:
 			DisableThreadLibraryCalls(hModule);
 			plugin = std::make_unique<c_plugin>(hModule);

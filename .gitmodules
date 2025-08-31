@@ -1,6 +1,9 @@
 [submodule "libs/RakHook"]
 	path = libs/RakHook
-	url = https://github.com/imring/RakHook
-[submodule "libs/MinHook"]
-	path = libs/MinHook
-	url = https://github.com/TsudaKageyu/minhook
+	url = https://github.com/exsycore/rakhook
+[submodule "libs/samp-api"]
+	path = libs/samp-api
+	url = https://github.com/BlastHackNet/SAMP-API
+[submodule "libs/imgui"]
+	path = libs/imgui
+	url = https://github.com/ocornut/imgui
