@@ -1,9 +1,9 @@
 # ASI template with imgui
-This project is template is not standalone plugin.
+This project is template is not full template plugin.
 
 ## Tools
-- CMake
-- Visual Studio 2022
+- [CMake](https://cmake.org/download/) - Andy Cedilnik, Bill Hoffman, Brad King, Ken Martin, Alexander Neundorf
+- [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) - Microsoft
 
 ## Clone
 ```bash
